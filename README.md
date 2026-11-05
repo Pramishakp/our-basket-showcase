@@ -1,10 +1,31 @@
 # Our Basket
 
-**An offline-first shared shopping and household-spending app for Android.**
+**An AI-assisted, offline-first Android application for collaborative shopping and household-spending insights.**
 
-Our Basket helps households plan purchases together, keep using their shopping list without reliable internet, record purchase details, and understand spending over time.
+Our Basket is designed to solve a practical household problem: keeping a shared shopping list reliable during everyday use, including when internet access is unavailable. It combines collaborative planning, offline actions, purchase tracking, reminders, and spending reports in one mobile experience.
 
 > Portfolio showcase only. The application source code, Firebase configuration, signing credentials, and installable APK are kept private while the product is being prepared for release.
+
+## Project snapshot
+
+| Area | Details |
+| --- | --- |
+| Product | Shared shopping and household-spending application |
+| Platform | Android |
+| Development stage | Private real-device testing |
+| Primary users | Individuals, couples, and shared households |
+| Core approach | Offline-first with automatic cloud synchronization |
+| My responsibilities | Product planning, workflow design, UI/UX direction, testing, Firebase setup, debugging, and release preparation |
+| Source access | Private during product development |
+
+## Problems addressed
+
+- Shopping lists becoming unavailable or slow when connectivity is unreliable
+- Household members losing track of what has already been purchased
+- Repeated data entry when recording several purchases from the same shop
+- Limited visibility into monthly, yearly, category, and item-level spending
+- Reminder notifications continuing after an item is completed or removed
+- Mobile forms that are difficult to operate with one hand while shopping
 
 ## Key features
 
@@ -39,7 +60,7 @@ Our Basket helps households plan purchases together, keep using their shopping l
 
 The app follows an offline-first approach. Actions update the device immediately and are stored locally. When internet access is available, queued changes synchronize with the shared Firestore household. Firebase Authentication and Firestore security rules limit access to approved household members.
 
-## My role
+## Role and contributions
 
 - Defined the product requirements and shopping workflows
 - Directed the information architecture and UI/UX decisions
@@ -48,6 +69,16 @@ The app follows an offline-first approach. Actions update the device immediately
 - Identified synchronization, notification, restore, and layout issues
 - Iteratively improved the product based on household use
 - Managed Firebase setup, security rules, recovery, and release preparation
+
+## Skills demonstrated
+
+- Translating household needs into product requirements and usable workflows
+- Designing an offline-first mobile experience with synchronization feedback
+- Structuring React Native and TypeScript application behaviour
+- Working with Firebase Authentication, Firestore data, and access rules
+- Iterating on UI hierarchy, mobile forms, accessibility, and one-handed use
+- Debugging synchronization, notification, restoration, and layout problems
+- Testing Android builds on real devices and preparing a product for release
 
 ## AI-assisted development
 
