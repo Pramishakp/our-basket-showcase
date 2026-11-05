@@ -1,0 +1,9 @@
+.DS_Store
+*.apk
+*.aab
+*.jks
+*.keystore
+credentials*
+firebaseConfig*
+google-services.json
+screenshots/
