@@ -53,9 +53,21 @@ The app follows an offline-first approach. Actions update the device immediately
 
 Our Basket was created using AI-assisted development technology. AI tools supported code generation, debugging, design exploration, documentation, and test iteration. Product decisions, requirements, workflow design, UI/UX direction, real-device testing, and final acceptance were led by **Pramisha K P**.
 
-## Privacy and payments
+## Privacy and safety
 
-The app does not handle payment credentials. Payment actions only open the selected payment application. Household data is protected through Firebase authentication and membership-based Firestore rules.
+- Household access is protected through Firebase Authentication and membership-based Firestore security rules.
+- Shopping and purchase information is limited to approved household members.
+- Offline changes are stored on the device and synchronized when connectivity returns.
+- The app does not collect or store payment credentials. Payment actions only open the payment application selected by the user.
+- Source code, Firebase configuration, signing credentials, household data, and installable builds are not included in this public portfolio repository.
+
+## Development roadmap
+
+- Complete private household testing and reliability improvements
+- Finalize the visual theme, icon system, and product screenshots
+- Expand accessibility and usability testing across Android screen sizes
+- Complete release preparation, privacy documentation, and Play Store listing
+- Publish the first Google Play version
 
 ## Release status
 
@@ -68,4 +80,10 @@ Updated product screenshots will be added after the visual theme and icon system
 ## Source availability
 
 The source repository is private while the product is under development. Selected recruiters or collaborators may be given access separately when appropriate.
+
+## Copyright and usage
+
+Copyright © 2026 Pramisha K P. All rights reserved.
+
+This repository is provided only as a portfolio showcase. Its written content, product concept, branding, architecture diagram, and other materials may not be copied, redistributed, republished, or used to create a competing product without prior written permission. No license to the private application source code is granted or implied.
 
